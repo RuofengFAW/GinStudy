@@ -5,10 +5,12 @@ import (
 	"net/http"
 )
 
-type UserController struct{}
+type UserController struct{
+	BaseController
+}
 
 func (u UserController) List(c *gin.Context) {
-	c.String(http.StatusOK, "用户列表")
+	u.success(c)
 }
 
 func (u UserController) Add(c *gin.Context) {
