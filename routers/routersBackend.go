@@ -11,5 +11,7 @@ func RbInit(r *gin.Engine) {
 		// 路由和控制器分离
 		groupRouter.GET("/users", backend.UserController{}.List)
 		groupRouter.GET("/user/add", backend.UserController{}.Add)
+		groupRouter.GET("/user/upload", backend.UserController{}.Upload)
+		groupRouter.GET("/user/uploadMulit", backend.UserController{}.Upload)
 	}
 }

@@ -20,9 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39ab4fee-3104-4f3f-95af-889bcf98f90e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controllers/backend/baseController.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/api/articleController.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/api/userController.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/common.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middlewares/init.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/DAdvertiserList.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/core.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/backend/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/backend/uploadMulit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/backend/userController.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/backend/userController.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/routersApi.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/routersApi.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routers/routersBackend.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/routersBackend.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,8 +44,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
         <option value="Go File" />
       </list>
     </option>
@@ -160,9 +171,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="dock-window-2/0.0.1440.900@0.0.1440.900" timestamp="1637743967858" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1637634654768">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1638515781076">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1637634654768" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1638515781076" />
   </component>
 </project>

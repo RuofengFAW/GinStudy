@@ -5,7 +5,7 @@ import (
 	"net/http"
 )
 
-type UserController struct{
+type UserController struct {
 	BaseController
 }
 
@@ -15,4 +15,10 @@ func (u UserController) List(c *gin.Context) {
 
 func (u UserController) Add(c *gin.Context) {
 	c.String(http.StatusOK, "添加用户")
+}
+
+func (u UserController) Upload(c *gin.Context) {
+	c.HTML(http.StatusOK, "backend/upload", gin.H{
+
+	})
 }
